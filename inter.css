@@ -1,0 +1,442 @@
+		.nav{height: 90px;
+		    position:relative;
+		    z-index:2;
+		    padding-top:0.59375%;
+		    background:url("assets/images/nav-bg.jpg") no-repeat;
+		    background-position:center;background-size:100% 100%;
+		    text-align:center;
+		    font-size:0;
+		    white-space:nowrap;
+		    -webkit-box-sizing:border-box;
+		    box-sizing:border-box}
+		.nav .nav-item{
+		    position:absolute;
+		    display:block;
+		    top:0;
+		    left:0;
+		    -webkit-transition:opacity .2s;
+		    -o-transition:opacity .2s;
+		    transition:opacity .2s}
+		.nav .nav-item:hover{opacity:.6;
+		    text-decoration:none}
+		.nav .nav-item img{position:absolute;
+		    display:block;
+		    top:0;
+		    left:0;
+		    width:100%;
+		    height:auto}
+		.nav .nav-item.home{top:7.49275%;
+		    left:23.95833%;
+		    width:5.36458%;
+		    padding-top:2.44792%}
+		.nav .nav-item.news{top:29.98551%;
+		    left:31.40625%;
+		    width:5.52083%;
+		    padding-top:1.71875%}
+		.nav .nav-item.world{top:28.98551%;
+		    left:37.8125%;
+		    width:5.52083%;
+		    padding-top:1.71875%}
+		.nav .nav-item.servant{top:30.98551%;
+		    left:44.25583%;
+		    width:5.52083%;
+		    padding-top:1.71875%}
+
+		@-webkit-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
+		@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
+
+		.back-top{position:absolute;
+			z-index:2;
+			bottom:129px;
+			right:8.22917%;
+			width:5.98958%;
+			padding-top:2.96875%;
+			background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAA5CAMAAAAyXuTeAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABaUExURUxpcdXMm9XMm9XMm9XMm9XMm9XMm9XMm9XMm9XMmwMOLBAaM7mzjdXMmxwkOby1jm1uZKeigx0mOqqlhMnDnhskOWhpYH18bSctPJaTffTsvNjRqVlbWD9DSJAGUVoAAAAKdFJOUwDCINct3+7eHx5E9o+XAAACHElEQVRYw73W2ZKrIBAA0MydzEwCKmAI4Pb/v3nZNLhRigClhOqXk2ZpvN0C2/37fsvc7r/l7z07WWZGJfmqXllRRUIAc6KGBDnRkcyIWrIiVTZ0JIuyyIVOZDEUmdAPWZkuPeqSIA/6nJEu+kxG/pUIww9pUYhR+fdMRr5qzIQhYQ8NKhiuX4lQRcqCxynSJOZYo4hyXQZToIa0hiSxwAq1/yEJOpIFEphBqDzVQYbFuJFiox9S7RmsUxwHVRrUJQGoCan1trWDJOicVOkxnSezCSdAV6RdT2YHCdA5CXouNFxrTvAexEcXJDCp2fNp81RnKCK6JCe0d8mo6Jp0JIeMiG6RkzUjo6HbpNUWZCR0j3TqbWz0sUt+7pU99HGVrMG6mfszMuon99olVJLkPHkJDSUnlJxGw8lg9Aqp0fdp9Bop7/Lz6FUyAL1OnkZ9JCUNQk1B5T0tSNOQQcZUpCH8CurNkspHvQyITiqsVR8JKiI6Eo5a8r1JMm4EzgDtVAB11gRNGzy9jx8PCYbBCMMwtA3QEt81j6J+0kwvnTA1ucRGTDgAPUBOJjOmWt2OsYKIsN17hFzmWWizDz0yh0hrMrOeXP1sTesK/XmEk6PQIdWTVvhNP3qQHAXWyj0s9Ax7TR96lGRdx8wA9T3iNiJC0KOk24Q4WXvnaAgZUPBdNC25iaYmN9B/yckVmoNcol8lfScnR/RNy6/bf7fymDxq3mqtAAAAAElFTkSuQmCC) no-repeat;
+			background-size:100% auto;
+			cursor:pointer}
+
+		.footer-GT{width:100%;
+			height:129px;
+			background-image:url(assets/images/footer-3.jpg);
+			margin:0 auto;
+			background-position:60% 80%}
+
+		.swiper-container{margin:0 auto;
+			position:relative;overflow:hidden;direction:ltr;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1}
+		.swiper-wrapper{position:relative;
+			width:100%;-webkit-transition-property:-webkit-transform,left,top;
+			-webkit-transition-duration:0s;
+			-webkit-transform:translate3d(0,0,0);
+			-webkit-transition-timing-function:ease;
+			-moz-transition-property:-moz-transform,left,top;
+			-moz-transition-duration:0s;
+			-moz-transform:translate3d(0,0,0);
+			-moz-transition-timing-function:ease;
+			-o-transition-property:-o-transform,left,top;
+			-o-transition-duration:0s;
+			-o-transform:translate3d(0,0,0);
+			-o-transition-timing-function:ease;
+			-o-transform:translate(0,0);
+			-ms-transition-property:-ms-transform,left,top;
+			-ms-transition-duration:0s;
+			-ms-transform:translate3d(0,0,0);
+			-ms-transition-timing-function:ease;
+			-webkit-transition-property:left,top,-webkit-transform;
+			transition-property:left,top,-webkit-transform;
+			-o-transition-property:transform,left,top;
+			transition-property:transform,left,top;
+			transition-property:transform,left,top,-webkit-transform;
+			transition-duration:0s;
+			transform:translate3d(0,0,0);
+			transition-timing-function:ease;
+			-webkit-box-sizing:content-box;
+			box-sizing:content-box}
+		.swiper-free-mode>.swiper-wrapper{-webkit-transition-timing-function:ease-out;
+			-o-transition-timing-function:ease-out;
+			transition-timing-function:ease-out;
+			margin:0 auto}
+		.swiper-slide{float:left;
+			-webkit-box-sizing:content-box;
+			box-sizing:content-box}
+		.swiper-wp8-horizontal{-ms-touch-action:pan-y}
+		.swiper-wp8-vertical{-ms-touch-action:pan-x}
+
+		a,b,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,html,i,img,input,label,li,ol,option,p,select,span,strong,table,td,textarea,tr,ul{margin:0;padding:0}
+		fieldset,img{border:0}
+		table{border-collapse:collapse;border-spacing:0}
+		caption,th{text-align:center-top}
+		ol,ul{list-style:none}
+		h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+		a{text-decoration:none;color:#161616}
+		a:hover{text-decoration:underline;color:#c01203}
+		area,map{border:0;outline:0;cursor:default}
+		.back-top{position:absolute;z-index:2;bottom:129px;right:8.22917%;width:5.98958%;padding-top:2.96875%;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAA5CAMAAAAyXuTeAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABaUExURUxpcdXMm9XMm9XMm9XMm9XMm9XMm9XMm9XMm9XMmwMOLBAaM7mzjdXMmxwkOby1jm1uZKeigx0mOqqlhMnDnhskOWhpYH18bSctPJaTffTsvNjRqVlbWD9DSJAGUVoAAAAKdFJOUwDCINct3+7eHx5E9o+XAAACHElEQVRYw73W2ZKrIBAA0MydzEwCKmAI4Pb/v3nZNLhRigClhOqXk2ZpvN0C2/37fsvc7r/l7z07WWZGJfmqXllRRUIAc6KGBDnRkcyIWrIiVTZ0JIuyyIVOZDEUmdAPWZkuPeqSIA/6nJEu+kxG/pUIww9pUYhR+fdMRr5qzIQhYQ8NKhiuX4lQRcqCxynSJOZYo4hyXQZToIa0hiSxwAq1/yEJOpIFEphBqDzVQYbFuJFiox9S7RmsUxwHVRrUJQGoCan1trWDJOicVOkxnSezCSdAV6RdT2YHCdA5CXouNFxrTvAexEcXJDCp2fNp81RnKCK6JCe0d8mo6Jp0JIeMiG6RkzUjo6HbpNUWZCR0j3TqbWz0sUt+7pU99HGVrMG6mfszMuon99olVJLkPHkJDSUnlJxGw8lg9Aqp0fdp9Bop7/Lz6FUyAL1OnkZ9JCUNQk1B5T0tSNOQQcZUpCH8CurNkspHvQyITiqsVR8JKiI6Eo5a8r1JMm4EzgDtVAB11gRNGzy9jx8PCYbBCMMwtA3QEt81j6J+0kwvnTA1ucRGTDgAPUBOJjOmWt2OsYKIsN17hFzmWWizDz0yh0hrMrOeXP1sTesK/XmEk6PQIdWTVvhNP3qQHAXWyj0s9Ax7TR96lGRdx8wA9T3iNiJC0KOk24Q4WXvnaAgZUPBdNC25iaYmN9B/yckVmoNcol8lfScnR/RNy6/bf7fymDxq3mqtAAAAAElFTkSuQmCC) no-repeat;background-size:100% auto;cursor:pointer}
+		body,html{min-width:1280px;max-width:1920px;margin:0 auto}
+		body{font:12px/1.5 'Microsoft Yahei';color:#161616;background-color:#fff}
+		#footer,.bui-footer{position:relative;background-color:#030e2c}
+		.hover{-webkit-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}
+		.hover:hover{opacity:.8!important}
+		.title-lay{position:relative;padding-top:9.79167%;background:url(assets/images/common-top-bg.jpg);background-size:100% 100%}
+		.title-lay .page-title{position:absolute;top:0;left:0;width:100%;height:100%;background-size:100% 100%}
+		.title-lay .page-title.world{background-image:url(assets/images/world-title.png)}
+		.title-lay .page-title.servant{background-image:url(assets/images/own-title.png)}
+		.title-lay .page-title.how_to_play{background-image:url(assets/images/how_to_play-title.png)}
+		.title-lay .page-title.gallery{background-image:url(assets/images/gallery-title.png)}
+		.title-lay-slice{border-top:1px solid #ede6ba;border-bottom:1px solid #7b828a}
+		.main-container{position:relative;z-index:1;border-bottom:1px solid #d5cc9b;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAAAAACo4kLRAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfjARkKHRc9XZ4kAAAAiklEQVQY02XPTQ7CQAiG4RfQGOMBvP/BXBlXTWblTxNLccF06rSsvjyEAOLKrlTmnbnKTt2UrbqhbNQNlF7dSPxTNxZE5APA21gRORaIcq4DUWt8+N1rbhiv23eJ7cko16HdsHSHKcZSs0T2nheByU+5NnE65NhsK+bNTbUzRL3ialW1t1SJ3oCYf40hZgEACY7UAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE5LTAxLTI1VDEwOjI5OjIzKzA4OjAwIpqW9AAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0wMS0yNVQxMDoyOToyMyswODowMFPHLkgAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC);background-size:1.04167% auto;overflow:hidden}
+		.roles-container{position:relative;padding-top:58.60417%}
+		.roles-tags{position:absolute;z-index:4;top:2.72439%;left:28.875%/*;width:55.9375%;padding-top:2.1875%*/}
+		.roles-tags .role-tag{position:absolute;top:0;margin-right:.46555%;width:12.10428%;height:100%;background:url(assets/images/jobs-1.png);background-size:auto 200%;-webkit-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s;cursor:pointer}
+		.roles-tags .role-tag.on{background-position-y:100%}
+		.roles-tags .role-tag.on:hover{opacity:1}
+		.roles-tags .role-tag:hover{opacity:.7}
+		.roles-tags .role-tag:last-child{margin-right:0}
+		.roles-tags .role-tag.saber{left:0}
+		.roles-tags .role-tag.archer{left:12.56983%;background-position-x:14%}
+		.roles-tags .role-tag.lancer{left:25.13966%;background-position-x:28.5%}
+		.roles-tags .role-tag.rider{left:37.7095%;background-position-x:42.5%}
+		.roles-tags .role-tag.caster{left:50.27933%;background-position-x:57%}
+		.roles-tags .role-tag.assassin{left:62.84916%;background-position-x:71.5%}
+		.roles-tags .role-tag.berserker{left:75.41899%;background-position-x:85.5%}
+		.roles-tags .role-tag.extra{left:87.98883%;background-position-x:100%}
+		.swiper-common-wrap{position:absolute;z-index:2;top:0;left:0;width:100%;height:100%}
+		/*.swiper-common-wrap .swiper-common{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;background-size:100% auto;background-repeat:no-repeat;background-position-y:55%}
+		.swiper-common-wrap .swiper-common.current{z-index:10}
+		.swiper-common-wrap .swiper-slide{background-size:100% 100%}
+		.swiper-common-wrap .saber-swiper{display:none}
+		.swiper-common-wrap .saber-swiper.on{background-image:url(assets/images/saber-bg.png)}
+		.swiper-common-wrap .saber-swiper .swiper-slide.s1{background-image:url(assets/images/saber-1.png)}
+		.swiper-common-wrap .saber-swiper .swiper-slide.s2{background-image:url(assets/images/saber-2.png)}
+		.swiper-common-wrap .saber-swiper .swiper-slide.s3{background-image:url(assets/images/saber-3.png)}
+		.swiper-common-wrap .archer-swiper{display:none}
+		.swiper-common-wrap .archer-swiper.on{background-image:url(assets/images/archer-bg.png)}
+		.swiper-common-wrap .archer-swiper .swiper-slide.s1{background-image:url(assets/images/archer-1.png)}
+		.swiper-common-wrap .archer-swiper .swiper-slide.s2{background-image:url(assets/images/archer-2.png)}
+		.swiper-common-wrap .archer-swiper .swiper-slide.s3{background-image:url(assets/images/archer-3.png)}
+		.swiper-common-wrap .lancer-swiper{display:none}
+		.swiper-common-wrap .lancer-swiper.on{background-image:url(assets/images/lancer-bg.png)}
+		.swiper-common-wrap .lancer-swiper .swiper-slide.s1{background-image:url(assets/images/lancer-1.png)}
+		.swiper-common-wrap .lancer-swiper .swiper-slide.s2{background-image:url(assets/images/lancer-2.png)}
+		.swiper-common-wrap .lancer-swiper .swiper-slide.s3{background-image:url(assets/images/lancer-3.png)}
+		.swiper-common-wrap .rider-swiper{display:none}
+		.swiper-common-wrap .rider-swiper.on{background-image:url(assets/images/rider-bg.png)}
+		.swiper-common-wrap .rider-swiper .swiper-slide.s1{background-image:url(assets/images/rider-1.png)}
+		.swiper-common-wrap .rider-swiper .swiper-slide.s2{background-image:url(assets/images/rider-2.png)}
+		.swiper-common-wrap .rider-swiper .swiper-slide.s3{background-image:url(assets/images/rider-3.png)}
+		.swiper-common-wrap .caster-swiper{display:none}
+		.swiper-common-wrap .caster-swiper.on{background-image:url(assets/images/caster-bg.png)}
+		.swiper-common-wrap .caster-swiper .swiper-slide.s1{background-image:url(assets/images/caster-1.png)}
+		.swiper-common-wrap .caster-swiper .swiper-slide.s2{background-image:url(assets/images/caster-2.png)}
+		.swiper-common-wrap .caster-swiper .swiper-slide.s3{background-image:url(assets/images/caster-3.png)}
+		.swiper-common-wrap .assassin-swiper{display:none}
+		.swiper-common-wrap .assassin-swiper.on{background-image:url(assets/images/assassin-bg.png)}
+		.swiper-common-wrap .assassin-swiper .swiper-slide.s1{background-image:url(assets/images/assassin-1.png)}
+		.swiper-common-wrap .assassin-swiper .swiper-slide.s2{background-image:url(assets/images/assassin-2.png)}
+		.swiper-common-wrap .assassin-swiper .swiper-slide.s3{background-image:url(assets/images/assassin-3.png)}
+		.swiper-common-wrap .berserker-swiper{display:none}
+		.swiper-common-wrap .berserker-swiper.on{background-image:url(assets/images/berserker-bg.png)}
+		.swiper-common-wrap .berserker-swiper .swiper-slide.s1{background-image:url(assets/images/berserker-1.png)}
+		.swiper-common-wrap .berserker-swiper .swiper-slide.s2{background-image:url(assets/images/berserker-2.png)}
+		.swiper-common-wrap .berserker-swiper .swiper-slide.s3{background-image:url(assets/images/berserker-3.png)}
+		.swiper-common-wrap .extra-swiper{display:none}
+		.swiper-common-wrap .extra-swiper.on{background-image:url(assets/images/extra-bg.png)}
+		.swiper-common-wrap .extra-swiper .swiper-slide.s1{background-image:url(assets/images/extra-1.png)}
+		.swiper-common-wrap .extra-swiper .swiper-slide.s2{background-image:url(assets/images/extra-2.png)}
+		.swiper-common-wrap .extra-swiper .swiper-slide.s3{background-image:url(assets/images/extra-3.png)}*/
+		.flower{position:absolute;z-index:1;top:0;width:20.98958%;margin-top:18.02083%;padding-top:25.3125%;background:url(assets/images/bot-flower.png) no-repeat;background-size:100% auto}
+		.flower.left{left:-9.27083%}
+		.flower.right{right:-9.375%}
+		.arr{position:absolute;z-index:3;top:34.62929%;width:3.64583%;padding-top:3.64583%;background:url(assets/images/arr.png) no-repeat;background-size:100% auto;cursor:pointer}
+		.left-arr{left:0}
+		.right-arr{right:0;-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+		.roles-s-tags{position:absolute;z-index:3;top:16.99819%;left:21.875%;width:15.625%;padding-top:5.20833%}
+		.roles-s-tags .roles-s-box{position:absolute;z-index:3;top:0;width:33.33333%;padding-top:33.33333%;background-size:100% 100%;cursor:pointer}
+		.roles-s-tags .roles-s-box:nth-child(1){left:0}
+		.roles-s-tags .roles-s-box:nth-child(2){left:33.33333%}
+		.roles-s-tags .roles-s-box:nth-child(3){left:66.66667%}
+		.roles-s-tags .roles-s-box .shadow{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;background:#2b1e17;opacity:.5;-webkit-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}
+		.roles-s-tags .roles-s-box .border{position:absolute;z-index:2;top:0;left:0;width:100%;height:100%;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAgMAAAANjH3HAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJUExURUxpcdLPqt3c058d7Y0AAAABdFJOUwBA5thmAAAAY0lEQVRIx+3WoQ2AUBCD4b6EAWCE2+QJSA4c4gQSwWBYpmSB3gkSXGu/1P+IbOgj2IaG7eG74RP9zFbIsVNZLnij0g1rUIkTDj6TSCQSiUQi+VmKQkmrpiihD12VV1pedmkNvpkOXbcycfw0AAAAAElFTkSuQmCC) no-repeat;background-size:100% auto}
+		.roles-s-tags .roles-s-box:hover .shadow{opacity:.3}
+		.roles-s-tags .roles-s-box.on{cursor:default}
+		.roles-s-tags .roles-s-box.on .shadow{opacity:0}
+		.roles-s-tags.saber .roles-s-box:nth-child(1){background-image:url(assets/images/saber-s-1.png)}
+		.roles-s-tags.saber .roles-s-box:nth-child(2){background-image:url(assets/images/saber-s-2.png)}
+		.roles-s-tags.saber .roles-s-box:nth-child(3){background-image:url(assets/images/saber-s-3.png)}
+		.roles-s-tags.archer .roles-s-box:nth-child(1){background-image:url(assets/images/archer-s-1.png)}
+		.roles-s-tags.archer .roles-s-box:nth-child(2){background-image:url(assets/images/archer-s-2.png)}
+		.roles-s-tags.archer .roles-s-box:nth-child(3){background-image:url(assets/images/archer-s-3.png)}
+		.roles-s-tags.lancer .roles-s-box:nth-child(1){background-image:url(assets/images/lancer-s-1.png)}
+		.roles-s-tags.lancer .roles-s-box:nth-child(2){background-image:url(assets/images/lancer-s-2.png)}
+		.roles-s-tags.lancer .roles-s-box:nth-child(3){background-image:url(assets/images/lancer-s-3.png)}
+		.roles-s-tags.rider .roles-s-box:nth-child(1){background-image:url(assets/images/rider-s-1.png)}
+		.roles-s-tags.rider .roles-s-box:nth-child(2){background-image:url(assets/images/rider-s-2.png)}
+		.roles-s-tags.rider .roles-s-box:nth-child(3){background-image:url(assets/images/rider-s-3.png)}
+		.roles-s-tags.caster .roles-s-box:nth-child(1){background-image:url(assets/images/caster-s-1.png)}
+		.roles-s-tags.caster .roles-s-box:nth-child(2){background-image:url(assets/images/caster-s-2.png)}
+		.roles-s-tags.caster .roles-s-box:nth-child(3){background-image:url(assets/images/caster-s-3.png)}
+		.roles-s-tags.assassin .roles-s-box:nth-child(1){background-image:url(assets/images/assassin-s-1.png)}
+		.roles-s-tags.assassin .roles-s-box:nth-child(2){background-image:url(assets/images/assassin-s-2.png)}
+		.roles-s-tags.assassin .roles-s-box:nth-child(3){background-image:url(assets/images/assassin-s-3.png)}
+		.roles-s-tags.berserker .roles-s-box:nth-child(1){background-image:url(assets/images/berserker-s-1.png)}
+		.roles-s-tags.berserker .roles-s-box:nth-child(2){background-image:url(assets/images/berserker-s-2.png)}
+		.roles-s-tags.berserker .roles-s-box:nth-child(3){background-image:url(assets/images/berserker-s-3.png)}
+		.roles-s-tags.extra .roles-s-box:nth-child(1){background-image:url(assets/images/extra-s-1.png)}
+		.roles-s-tags.extra .roles-s-box:nth-child(2){background-image:url(assets/images/extra-s-2.png)}
+		.roles-s-tags.extra .roles-s-box:nth-child(3){background-image:url(assets/images/extra-s-3.png)}
+		.job-tit{position:absolute;z-index:3;bottom:0;left:0;width:50%;padding-top:8.02083%;background-size:100% auto}.job-tit.saber{background-image:url(assets/images/saber-tit.png)}.job-tit.archer{background-image:url(assets/images/archer-tit.png)}
+		.job-tit.lancer{background-image:url(assets/images/lancer-tit.png)}
+		.job-tit.rider{background-image:url(assets/images/rider-tit.png)}
+		.job-tit.caster{background-image:url(assets/images/caster-tit.png?e23e699c)}.job-tit.assassin{background-image:url(assets/images/assassin-tit.png)}
+		.job-tit.berserker{background-image:url(assets/images/berserker-tit.png)}
+		.job-tit.extra{background-image:url(assets/images/extra-tit.png)}
+		.job-tit.avenger{background-image:url(assets/images/avenger-tit.png)}
+		.job-tit.ruler{background-image:url(assets/images/ruler-tit.png)}
+
+		.tab {position:absolute;
+			z-index:4;
+			top:0.72439%;
+			left:28.875%;
+/*		    background:url(assets/images/nav-bg.jpg);*/
+		    overflow: hidden;
+		    border: 1px solid #ccc;
+/*		    background-color: #f2f2f2;*/
+			animation: trans 5s infinite alternate;
+
+		}
+
+		@keyframes trans {
+			0% { background-color: #ff11112b }
+			8.33% { background-color: #ff11bb2b }
+			16.66% { background-color: #e111ff2b }
+			24.99% { background-color: #9411ff2b }
+			33.33% { background-color: #3c11ff2b }
+			41.66% { background-color: #1133ff2b }
+			49.99% { background-color: #1175ff2b }
+			58.32% { background-color: #1196ff2b }
+			66.65% { background-color: #11c2ff2b }
+			74.98% { background-color: #11fffa2b }
+			83.31% { background-color: #11ffa22b }
+			91.64% { background-color: #11ff552b }
+			100% { background-color: #87ff112b }
+		}
+
+		.tab.active {
+			display: block;
+		}
+
+		/* Style the buttons inside the tab */
+		.tab button {
+		  background-color: inherit;
+		  float: left;
+		  border: none;
+		  outline: none;
+		  cursor: pointer;
+		  padding: 14px 16px;
+		  transition: 0.3s;
+		  font-size: 17px;
+		}
+
+		/* Change background color of buttons on hover */
+		.tab button:hover {
+		  background-color: #ddd;
+		}
+
+		/* Create an active/current tablink class */
+		.tab button.active {
+		  background-color: #f2f2f2;
+		}
+
+		/* Style the tab content */
+		.tabcontent {
+		  display: none;
+		  padding-top: 50px;
+		  padding-right: 12px;
+		  padding-bottom: 22px;
+		  padding-left: 12px;
+		  border: 1px solid #ccc;
+		  border-top: none;
+		}
+
+		@keyframes move {
+			0% {left: 0%}
+		    25% {left: 25%}
+		    50% {left: 50%}
+		    75% {left: 75%}
+		    100% {left: 100%}
+		}
+
+		.mySlides {
+			margin: auto;
+			width:49.45%;
+		  display: none;
+		}
+
+		/* Add a pointer when hovering over the thumbnail images */
+		.cursor {
+		  cursor: pointer;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+		  color: #f2f2f2;
+		  font-size: 12px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  top: 0;
+		}
+
+		/* Container for image text */
+		.caption-container {
+			margin-top: 6.1436%;
+		  text-align: center;
+		  background-color: #222;
+		  padding: 2px 16px;
+		  color: white;
+		}
+
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+		/* Six columns side by side */
+		.column {
+		  float: left;
+		  width: 33.33%;
+		}
+
+		/* Add a transparency effect for thumnbail images */
+		.demo {
+		  opacity: 0.6;
+		}
+
+		.active,
+		.demo:hover {
+		  opacity: 1;
+		}
+
+		.mySlides1 {
+			margin: auto;
+			width:49.45%;
+		  display: none;
+		}
+		.demo1 {
+		  opacity: 0.6;
+		}
+		.active1,
+		.demo1:hover {
+		  opacity: 1;
+		}
+		.mySlides2 {
+			margin: auto;
+			width:49.45%;
+		  display: none;
+		}
+		.demo2 {
+		  opacity: 0.6;
+		}
+		.active2,
+		.demo2:hover {
+		  opacity: 1;
+		}
+		.mySlides3 {
+			margin: auto;
+			width:49.45%;
+		  display: none;
+		}
+		.demo3 {
+		  opacity: 0.6;
+		}
+		.active3,
+		.demo3:hover {
+		  opacity: 1;
+		}
+		.mySlides4 {
+			margin: auto;
+			width:49.45%;
+		  display: none;
+		}
+		.demo4 {
+		  opacity: 0.6;
+		}
+		.active4,
+		.demo4:hover {
+		  opacity: 1;
+		}
+		.mySlides5 {
+			margin: auto;
+			width:49.45%;
+		  display: none;
+		}
+		.demo5 {
+		  opacity: 0.6;
+		}
+		.active5,
+		.demo5:hover {
+		  opacity: 1;
+		}
+		.mySlides6 {
+			margin: auto;
+			width:49.45%;
+		  display: none;
+		}
+		.demo6 {
+		  opacity: 0.6;
+		}
+		.active6,
+		.demo6:hover {
+		  opacity: 1;
+		}
+		.mySlides7 {
+			margin: auto;
+			width:49.45%;
+		  display: none;
+		}
+		.demo7 {
+		  opacity: 0.6;
+		}
+		.active7,
+		.demo7:hover {
+		  opacity: 1;
+		}

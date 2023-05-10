@@ -1,0 +1,360 @@
+.banner-enter-active{-webkit-animation:fadeIn .5s;animation:fadeIn .5s}
+
+.banner-leave-active{animation:fadeIn .5s reverse}
+
+@-webkit-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
+
+@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
+
+a,b,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,html,i,img,input,label,li,ol,option,p,select,span,strong,table,td,textarea,tr,ul{margin:0;padding:0}
+
+fieldset,img{border:0}
+
+table{border-collapse:collapse;border-spacing:0}
+
+caption,th{text-align:left}
+
+ol,ul{list-style:none}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+
+a{text-decoration:none;color:#161616}
+
+a:hover{text-decoration:underline;color:#c01203}
+
+area,map{border:0;outline:0;cursor:default}
+
+.back-top{position:absolute;
+    z-index:2;bottom:122px;right:8.22917%;width:5.98958%;padding-top:2.96875%;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAA5CAMAAAAyXuTeAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABaUExURUxpcdXMm9XMm9XMm9XMm9XMm9XMm9XMm9XMm9XMmwMOLBAaM7mzjdXMmxwkOby1jm1uZKeigx0mOqqlhMnDnhskOWhpYH18bSctPJaTffTsvNjRqVlbWD9DSJAGUVoAAAAKdFJOUwDCINct3+7eHx5E9o+XAAACHElEQVRYw73W2ZKrIBAA0MydzEwCKmAI4Pb/v3nZNLhRigClhOqXk2ZpvN0C2/37fsvc7r/l7z07WWZGJfmqXllRRUIAc6KGBDnRkcyIWrIiVTZ0JIuyyIVOZDEUmdAPWZkuPeqSIA/6nJEu+kxG/pUIww9pUYhR+fdMRr5qzIQhYQ8NKhiuX4lQRcqCxynSJOZYo4hyXQZToIa0hiSxwAq1/yEJOpIFEphBqDzVQYbFuJFiox9S7RmsUxwHVRrUJQGoCan1trWDJOicVOkxnSezCSdAV6RdT2YHCdA5CXouNFxrTvAexEcXJDCp2fNp81RnKCK6JCe0d8mo6Jp0JIeMiG6RkzUjo6HbpNUWZCR0j3TqbWz0sUt+7pU99HGVrMG6mfszMuon99olVJLkPHkJDSUnlJxGw8lg9Aqp0fdp9Bop7/Lz6FUyAL1OnkZ9JCUNQk1B5T0tSNOQQcZUpCH8CurNkspHvQyITiqsVR8JKiI6Eo5a8r1JMm4EzgDtVAB11gRNGzy9jx8PCYbBCMMwtA3QEt81j6J+0kwvnTA1ucRGTDgAPUBOJjOmWt2OsYKIsN17hFzmWWizDz0yh0hrMrOeXP1sTesK/XmEk6PQIdWTVvhNP3qQHAXWyj0s9Ax7TR96lGRdx8wA9T3iNiJC0KOk24Q4WXvnaAgZUPBdNC25iaYmN9B/yckVmoNcol8lfScnR/RNy6/bf7fymDxq3mqtAAAAAElFTkSuQmCC) no-repeat;background-size:100% auto;cursor:pointer}
+
+body,html{min-width:1280px;
+    max-width:1920px;margin:0 auto}
+
+body{font:12px/1.5 'Microsoft Yahei';
+    color:#161616;
+    background-color:#fff}
+
+#footer,.bui-footer{position:relative;
+    background-color:#030e2c}
+
+.hover{-webkit-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}
+
+.hover:hover{opacity:.8!important}
+
+#page{position:relative;z-index:1;width:100%;
+    margin-left:auto;margin-right:auto;overflow:hidden}
+
+.clearn{clear:both}
+
+.clearfix:before,.grid:before{height:1px;
+    margin-bottom:-1px;display:block;visibility:hidden;content:""}
+
+.clearfix:after,.grid:after{height:0;
+    display:block;visibility:hidden;clear:both;content:""}
+
+.clearfix,.grid{zoom:1}
+
+.grid{width:1200px;
+    margin:0 auto}
+
+.grid.flex{width:100%}
+
+.hide{display:none}
+
+#header{position:relative;
+    padding-top:54.6875%;overflow:hidden}
+
+.footer-GT{width:100%;
+    height:128px;background-image:url(images/footer-3.jpg);margin:0 auto;background-position:60% 80%}
+
+.rslides{position:absolute;top:0;
+    left:0;
+    height:100%}
+
+.rslides li{height:100%}
+
+.swiper-header{position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%}
+
+.swiper-header .header{position:absolute;top:0;
+    left:0;
+    width:100%;
+    height:100%}
+
+/*.swiper-header .header1-bg{height:100%;*/
+/*    background-size:100% 100%;*/
+/*    background-image:url(images/banner-3.jpg)}*/
+
+/*.swiper-header .header1-bg.on{background-image:url(//static.fate-go.com.tw/gw/pc/img/index/banner-1.jpg?67a6e3d2)}
+
+.swiper-header .header2-bg{height:100%;background-size:100% 100%;background-image:url(//static.fate-go.com.tw/gw/pc/img/index/banner-2.jpg?d96c652f)}
+
+.swiper-header .header2-bg.on{background-image:url(//static.fate-go.com.tw/gw/pc/img/index/banner-2.jpg?d96c652f)}
+*/
+.swiper-header .header3-bg{height:100%;background-size:100% 100%;background-image:url(images/banner-word.jpg)}
+
+.info-beta{position:absolute;left:69.6%;top:35px;z-index:2}
+
+.header-left{position:absolute;top:0;left:0;z-index:80;width:19.27083%;min-width:247px;height:100%;-webkit-transition:-webkit-transform .2s;transition:-webkit-transform .2s;-o-transition:transform .2s;transition:transform .2s;transition:transform .2s,-webkit-transform .2s}
+
+.header-left.collapse{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%)}
+
+.header-left.fixed{position:fixed}
+
+.header-left .holder{height:100%;background-color:rgba(255,255,255,.8)}
+
+.header-left .left-wrap{background:url(images/header-left.png) no-repeat;background-size:100% auto}
+
+.content{position:relative;padding-top:119.79167%;background:url(images/2.png);background-size:1.04167% auto}
+
+.content .tit{position:absolute;top:0;left:30.79167%;width:45.09375%;height: 4.5%;padding-top:11.25%;margin-top:3.53125%;background:url(images/tit.png) no-repeat;background-size:100% 100%}
+
+.content .tag{position:absolute;top:0;left:0;width:32.29167%;padding-top:6.25%;margin-top:18.95833%;background:url(images/tag-own3.png) no-repeat;background-size:100% 100%}
+
+.roles-wrap{position:absolute;top:21.73913%;left:0;width:100%;padding-top:34.32292%;background:url(images/bg_grd.png);background-size:auto 100%;overflow:hidden}
+
+.roles-wrap .roles{display:none;position:absolute;top:0;left:0;width:100%;height:100%;-webkit-animation:fade .3s forwards;animation:fade .3s forwards}
+
+.roles-wrap .roles.show{display:block}.roles-wrap .roles.active .role-item{width:9.01042%}
+
+.roles-wrap .roles.active .role-item.current{width:36.04167%}
+
+.roles-wrap .role-item{float:left;width:12.5%;position:relative;overflow:hidden;height:100%;cursor:pointer;-webkit-transition:all .2s ease-in;-o-transition:all .2s ease-in;transition:all .2s ease-in}
+
+.roles-wrap .role-item:after{content:'';display:block;position:absolute;width:100%;height:100%;background:rgba(0,36,99,.7)}
+
+.roles-wrap .role-item.current{background:url(images/bg_emblem.png) no-repeat center center;background-size:auto 100%}
+
+.roles-wrap .role-item.current:after{display:none}
+
+.roles-wrap .role-item.current .off .img{margin-left:180%}
+
+.roles-wrap .role-item.current .off .cl{opacity:0}
+
+.roles-wrap .role-item.current .on{opacity:1}
+
+.roles-wrap .role-item.current .on .img{width:156.06936%;margin-left:-77.92208%;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
+
+.roles-wrap .role-item.current .on .cl{position:absolute;top:0;left:0;z-index:5}
+
+.roles-wrap .role-item .off{position:absolute;top:0;left:0;width:100%;height:100%}
+
+.roles-wrap .role-item .off .img{position:absolute;-webkit-transition:all .7s ease;-o-transition:all .7s ease;transition:all .7s ease;width:1220px;height:100%;left:50%;margin-left:-610px;background-size:auto 100%;background-position:center}
+
+.roles-wrap .role-item .off .cl{position:absolute;top:50%;left:50%;margin:-71px 0 0 -18px;z-index:5}
+
+.roles-wrap .role-item .on{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0}
+
+.roles-wrap .role-item .on .img{position:absolute;left:50%;margin-left:100%;-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);-webkit-transition:all .8s ease .2s;-o-transition:all .8s ease .2s;transition:all .8s ease .2s;width:624.27746%;height:100%;background-size:auto 100%}
+
+.roles-wrap .role-item .on .cl{position:absolute;top:0;left:0;z-index:5}
+
+.roles-wrap .role-item.saber .off .img{background-image:url(images/Greece.png)}
+
+.roles-wrap .role-item.saber .on:hover .img{background-image:url(images/img_saber_on.png)}
+
+.roles-wrap .role-item.archer .off .img{background-image:url(images/Rome.png)}
+
+.roles-wrap .role-item.archer .on .img{background-image:url(images/img_archer_on.png)}
+
+.roles-wrap .role-item.lancer .off .img{background-image:url(images/nordic.png)}
+
+.roles-wrap .role-item.lancer .on .img{background-image:url(images/img_lancer_on.png)}
+
+.roles-wrap .role-item.rider .off .img{background-image:url(images/celtic.png)}
+
+.roles-wrap .role-item.rider .on .img{background-image:url(images/img_rider_on.png)}
+
+.roles-wrap .role-item.caster .off .img{background-image:url(images/Egypt.png)}
+
+.roles-wrap .role-item.caster .on .img{background-image:url(images/img_caster_on.png)}
+
+.roles-wrap .role-item.assassin .off .img{background-image:url(images/Aztec.png)}
+
+.roles-wrap .role-item.assassin .on .img{background-image:url(images/img_assassin_on.png)}
+
+.roles-wrap .role-item.berserker .off .img{background-image:url(images/maya.png)}
+
+.roles-wrap .role-item.berserker .on .img{background-image:url(images/img_berserker_on.png)}
+
+.roles-wrap .role-item.extra .off .img{background-image:url(images/Babylon.png)}
+
+.roles-wrap .role-item.extra .on .img{background-image:url(images/img_extra_on.png)}
+
+/*.swflv{width:87.83784%;padding-top:50%;margin:1.35135% auto;display:block;background:url(//static.fate-go.com.tw/gw/pc/img/index/swflv.jpg?3d221c80) no-repeat;background-size:100% 100%;cursor:pointer}*/
+
+.branch-eor,.story-line{position:absolute;top:0;left:0;width:100%}
+
+.placeholder-line{padding-top:115.13514%;visibility:hidden}
+
+.branch-eor .logo,.story-line .logo{position:relative;display:block}
+
+/*.story-line .logo{margin:4.05405% auto 0;width:75.13514%;padding-top:33.51351%;background:url(//static.fate-go.com.tw/gw/pc/img/index/logo.png?a61c3997) no-repeat;background-size:100% 100%}*/
+
+/*.branch-eor .logo{margin:5.13514% auto 0;width:76.21622%;padding-top:32.43243%;background:url(//static.fate-go.com.tw/gw/pc/img/index/eor-logo.png?b0d6c7b4) no-repeat;background-size:100% 100%}*/
+
+/*.branch-cos .logo{margin:3.78378% auto 0;width:70.27027%;padding-top:33.78378%;background:url(//static.fate-go.com.tw/gw/pc/img/index/logo-cos.png?478061d7) no-repeat;background-size:100% 100%}*/
+
+.story-line.show .logo{left:0}.branch-eor.show .logo{left:0}
+
+.branch-eor .swflv{background:url(images/uni-pv.jpg) no-repeat;background-size:100% 100%}
+
+#banner3 .swflv{background-image:url(images/eor-pv.png)}
+
+.swflv-p{font-size:15px;line-height:2;text-align:center}
+
+.btns{text-align:center;font-size:0;margin:15px auto}
+
+.btns a{position:relative;background-repeat:no-repeat;background-size:contain;background-position:center;margin:0 auto 3.24324%;display:block;width:71.89189%;padding-top:17.2973%;font-size:0;cursor:pointer}
+
+.btns a:hover .qr-box{display:block}
+
+/*.btns .btn-dl-ios{background-image:url(//static.fate-go.com.tw/gw/pc/img/index/btn-dl-ios-2.png?476863fd)}
+
+.btns .btn-dl-android{background-image:url(//static.fate-go.com.tw/gw/pc/img/index/btn-dl-android-2.png?1cc74766)}
+
+.btns .btn-dl-mycard{background-image:url(//static.fate-go.com.tw/gw/pc/img/index/btn-mycard-home.png?afedb132)}*/
+
+.attention{margin:2.7027% auto 0;position:relative;padding-left:13.78378%;padding-right:5.40541%;-webkit-box-sizing:border-box;box-sizing:border-box}
+
+.attention p{margin-top:3.125%;margin-right:-4.6875%;font-size:14px;color:#152631;line-height:1.6}
+
+.attention p span{margin-right:4.6875%;line-height:1.75}
+
+.link-btn{display:block;position:relative;width:100%;padding-top:10%;cursor:pointer}
+
+/*.link-btn.link1{margin-top:5.40541%;background:url(//static.fate-go.com.tw/gw/pc/img/index/link1.jpg?55e2ab4c) no-repeat;background-size:100% 100%}
+
+.link-btn.link2{margin-top:.54054%;background:url(//static.fate-go.com.tw/gw/pc/img/index/link2.jpg?cbe64aff) no-repeat;background-size:100% 100%}*/
+
+.closed{position:absolute;width:10%;padding-top:17.02703%;top:0;right:-4.86486%;margin-top:103.51351%;cursor:pointer;background:url(images/closed.png) no-repeat;background-size:200% 100%;z-index:9}
+
+.header-left .active{background-position:100% 0}
+
+/*.main-top{height:290px;text-align:center;background:url(//static.fate-go.com.tw/gw/pc/img/index/min-news.jpg?dc4e4318) center top no-repeat}*/
+
+.slideshow{width:455px;height:230px;margin-top:29px;border:1px solid #fff;position:relative;display:inline-block;*display:inline;*zoom:1;overflow:hidden}
+
+.slideshow-slide{width:455px;height:230px;float:left;display:block}
+
+.slideshow .slides-pagination{padding:5px;border-radius:13px;position:absolute;right:6px;bottom:6px;display:inline-block;*display:inline;*zoom:1;background:rgba(0,0,0,.75)}
+
+.slideshow .slides-pagination li{width:14px;height:14px;margin:0 4px;display:inline-block;*display:inline;*zoom:1}
+
+.slideshow .slides-pagination li a{width:14px;height:14px;border-radius:50%;display:block;line-height:14px;text-indent:-9999em;background:#fff}
+
+.slideshow .slides-pagination li.selected a{background:#1566db}
+
+.min-news{width:430px;margin-top:27px;display:inline-block;*display:inline;*zoom:1;text-align:left;vertical-align:top;color:#fff}
+
+.min-news dl{margin-bottom:5px}
+
+.min-news dl dt{margin-bottom:20px;padding-bottom:2px;display:block;font-size:22px;line-height:40px;font-weight:700;border-bottom:2px solid #fff}
+
+.min-news dl dt a{color:#fff}
+
+.min-news dl dt a:hover{color:#fff}
+
+.min-news dl dd{margin:3px 0;display:block;font-size:14px}
+
+.min-news dl dd a{color:#fff}
+
+.min-news dl dd a:hover{color:#fff}
+
+.min-news dl dd strong{display:block;font-weight:400;width:28em;overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+
+.min-news dl dd span{display:block;text-align:right;color:#fff}
+
+.line{width:71.35135%;padding-top:2.7027%;margin:1.35135% auto;display:block;background:url(images/1.png) no-repeat;background-size:100% 100%}
+
+.line-1{width:2px;height:242px;margin:23px 25px 0;display:inline-block;*display:inline;*zoom:1;vertical-align:top;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAADyCAQAAADNLdy2AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfjARkLEyVqy4gdAAAAq0lEQVQ4y61SSRLDMAzCyL33/1+tlx6ipPKmuJ1eMhABNkpCfQIEzCMSUWm8UEf/jx4HEkI2B3HQRUhvO3XS6j42uUsZQpWKc6RMWx6L7XTuYL214cvseb+nNLeH86sQASAqAhFAAiihVoAoKlGK9rRiaCVqO02DgwAS20H8jVqUL/RydQvv3JadvLlOr5GtrUtZUs1L+i7ZRrZgcvOSXfF9mUw3YN7XQ7uSN/YmTcRlddZyAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE5LTAxLTI1VDExOjE5OjM3KzA4OjAwXgsN/QAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0wMS0yNVQxMToxOTozNyswODowMC9WtUEAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC) no-repeat}
+
+.title-1{display:block;width:77.83784%;padding-top:6.75676%;margin:5.13514% auto;background:url(//static.fate-go.com.tw/gw/pc/img/index/left-tit.png?644f2b8a) no-repeat;background-size:100% 100%}
+
+.qr-box{display:none;position:absolute;top:0;left:101.8797%;width:54.88722%;padding-top:50.75188%;background:url(//static.fate-go.com.tw/gw/pc/img/index/qr-box.png?3fe610fa) no-repeat;background-size:100% 100%;-webkit-animation:fade .3s forwards;animation:fade .3s forwards}
+
+.qr-box .qrcode{position:absolute;top:6.66667%;left:13.0137%;width:80.82192%;height:87.40741%}
+
+.qr-box .qrcode img{display:block;width:100%;height:100%}
+
+.staff-area{position:absolute;left:0;bottom:0;width:100%;padding-top:59.58333%}
+
+.staff-area.show .staff-item{display:block}
+
+.staff-area .staff-item{position:absolute;display:none;left:50%;background-repeat:no-repeat;background-size:100% 100%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-animation:fade .3s forwards;animation:fade .3s forwards}
+
+.staff-area .staff-item.staff-tit{top:5.76923%;width:24.42708%;padding-top:4.42708%;background-image:url(images/bot-own.png)}
+
+.staff-area .staff-item.staff1{top:20.26042%;width:45.26042%;height:40.26042%;padding-top:5.3125%;}
+
+.staff-area .staff-item.staff2{top:29.02098%;width:13.07292%;padding-top:4.01042%;background-image:url(//static.fate-go.com.tw/gw/pc/img/index/staff2.png?ab6baefb)}
+
+.staff-area .staff-item.staff3{top:40.47203%;width:34.47917%;padding-top:4.58333%;background-image:url(//static.fate-go.com.tw/gw/pc/img/index/staff3.png?fda2e054)}
+
+.staff-area .staff-item.staff4{top:52.27273%;width:31.04167%;padding-top:8.80208%;background-image:url(//static.fate-go.com.tw/gw/pc/img/index/staff4.png?2c95d926)}
+
+.staff-area .staff-item.staff5{top:70.97902%;width:30.10417%;padding-top:4.58333%;background-image:url(//static.fate-go.com.tw/gw/pc/img/index/staff5.png?9fa7b9c3)}
+
+.staff-area .staff-item.staff6{top:83.04196%;width:21.875%;padding-top:6.35417%;background-image:url(//static.fate-go.com.tw/gw/pc/img/index/staff6.png?aa32574d)}
+
+.fade-enter-active{-webkit-animation:fade .3s;animation:fade .3s}
+
+.fade-leave-active{animation:fade .3s reverse}
+
+@-webkit-keyframes fade{0%{opacity:0}100%{opacity:1}}
+
+@keyframes fade{0%{opacity:0}100%{opacity:1}}
+
+@media (max-width:1400px){.attention p{font-size:12px}}
+
+@media (max-width:1440px){.qrcode-box p{font-size:14px}}
+
+.nav{height: 90px;
+    position:relative;
+    z-index:2;
+    padding-top:0.59375%;
+    background:url("images/nav-bg.jpg") no-repeat;
+    background-position:center;background-size:100% 100%;
+    text-align:center;
+    font-size:0;
+    white-space:nowrap;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box}
+.nav .nav-item{
+    position:absolute;
+    display:block;
+    top:0;
+    left:0;
+    -webkit-transition:opacity .2s;
+    -o-transition:opacity .2s;
+    transition:opacity .2s}
+.nav .nav-item:hover{opacity:.6;
+    text-decoration:none}
+.nav .nav-item img{position:absolute;
+    display:block;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto}
+.nav .nav-item.home{top:7.49275%;
+    left:23.95833%;
+    width:5.36458%;
+    padding-top:2.44792%}
+.nav .nav-item.news{top:29.98551%;
+    left:31.40625%;
+    width:5.52083%;
+    padding-top:1.71875%}
+.nav .nav-item.world{top:28.98551%;
+    left:37.8125%;
+    width:5.52083%;
+    padding-top:1.71875%}
+.nav .nav-item.servant{top:30.98551%;
+    left:44.25583%;
+    width:5.52083%;
+    padding-top:1.71875%}
+
+
+.back-top{position:absolute;z-index:2;bottom:128px;right:8.22917%;width:5.98958%;padding-top:2.96875%;background:url(images/top_buttun.png) no-repeat;background-size:100% auto;cursor:pointer}

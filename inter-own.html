@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html site-id="gw" h5-url="./h5/servant.html" lang="zh-cmn-Hant">
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+	<title>神話介紹</title>
+	<link rel=stylesheet type="text/css" href="inter.css">
+</head>
+<body>
+	<section id="first">
+		<div class="nav">
+			<a href="index.html" class="nav-item home"><img src="images/logo.png" alt="首頁"></a>
+			<a href="inter-own.html" class="nav-item news"><img src="images/inter1.png" alt="神話介紹"></a>
+			<a href="refer.html" class="nav-item world"><img src="images/refer.png" alt="參考資料"></a>
+			<a href="index.html#staff" class="nav-item servant"><img src="images/staff1.png" alt="製作人員"></a>
+		</div> 
+		<section class="main-container">
+			<section class="title-lay">
+				<div class="page-title servant"></div> 
+				<div class="title-lay-slice"></div>
+			</section> 
+			<img src="assets/images/common-top-bg.jpg" style="display: none;"> 
+			<div class="flower left" style="margin-top: 18.0208%;"></div> 
+			<div class="flower right" style="margin-top: 18.0208%;"></div>
+			<section class="roles-container">
+				<div class="tab">
+				  <button class="tablinks active" onclick="openCity(event, 'Greece')">Greece</button>
+				  <button class="tablinks" onclick="openCity(event, 'Rome')">Rome</button>
+				  <button class="tablinks" onclick="openCity(event, 'Nordic')">Nordic</button>
+				  <button class="tablinks" onclick="openCity(event, 'Celtic')">Celtic</button>
+				  <button class="tablinks" onclick="openCity(event, 'Egyptian')">Egyptian</button>
+				  <button class="tablinks" onclick="openCity(event, 'Aztec')">Aztec</button>
+				  <button class="tablinks" onclick="openCity(event, 'Maya')">Maya</button>
+				  <button class="tablinks" onclick="openCity(event, 'Mesopotamia')">Mesopotamia</button>
+				</div>
+				<div class="swiper-common-wrap">
+					<div id="Greece" class="tabcontent" style="display: block;">
+					  		  <div class="mySlides">
+							    <img src="assets/images/saber-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides">
+							    <img src="assets/images/god-1-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides">
+							    <img src="assets/images/saber-3.png" style="width:100%">
+							  </div>
+
+							  <a class="arr left-arr" onclick="plusSlides(-1)"></a>
+							  <a class="arr right-arr" onclick="plusSlides(1)"></a>
+
+							  <div class="caption-container">
+							    <p id="caption"></p>
+							  </div>
+
+							  <div class="row">
+							    <div class="column">
+							      <img class="demo cursor" src="assets/images/saber-1.png" style="width:100%" onclick="currentSlide(1)" alt="神話地區">
+							    </div>
+							    <div class="column">
+							      <img class="demo cursor" src="assets/images/god-1-1.png" style="width:100%" onclick="currentSlide(2)" alt="主要人物">
+							    </div>
+							    <div class="column">
+							      <img class="demo cursor" src="assets/images/saber-3.png" style="width:100%" onclick="currentSlide(3)" alt="人物關係圖">
+							    </div>
+					  		  </div>				  
+					</div>
+
+					<div id="Rome" class="tabcontent">
+					  		  <div class="mySlides1">
+							    <img src="assets/images/saber-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides1">
+							    <img src="assets/images/god-2-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides1">
+							    <img src="assets/images/saber-3.png" style="width:100%">
+							  </div>
+
+							  <a class="arr left-arr" onclick="plusSlides1(-1)"></a>
+							  <a class="arr right-arr" onclick="plusSlides1(1)"></a>
+
+							  <div class="caption-container">
+							    <p id="caption1"></p>
+							  </div>
+
+							  <div class="row">
+							    <div class="column">
+							      <img class="demo1 cursor" src="assets/images/saber-1.png" style="width:100%" onclick="currentSlide1(1)" alt="神話地區">
+							    </div>
+							    <div class="column">
+							      <img class="demo1 cursor" src="assets/images/god-2-1.png" style="width:100%" onclick="currentSlide1(2)" alt="主要人物">
+							    </div>
+							    <div class="column">
+							      <img class="demo1 cursor" src="assets/images/saber-3.png" style="width:100%" onclick="currentSlide1(3)" alt="人物關係圖">
+							    </div>
+					  		</div>				  
+					</div>
+
+					<div id="Nordic" class="tabcontent">
+					  		<div class="mySlides2">
+							    <img src="assets/images/saber-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides2">
+							    <img src="assets/images/god-3-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides2">
+							    <img src="assets/images/saber-3.png" style="width:100%">
+							  </div>
+
+							  <a class="arr left-arr" onclick="plusSlides2(-1)"></a>
+							  <a class="arr right-arr" onclick="plusSlides2(1)"></a>
+
+							  <div class="caption-container">
+							    <p id="caption2"></p>
+							  </div>
+
+							  <div class="row">
+							    <div class="column">
+							      <img class="demo2 cursor" src="assets/images/saber-1.png" style="width:100%" onclick="currentSlide2(1)" alt="神話地區">
+							    </div>
+							    <div class="column">
+							      <img class="demo2 cursor" src="assets/images/god-3-1.png" style="width:100%" onclick="currentSlide2(2)" alt="主要人物">
+							    </div>
+							    <div class="column">
+							      <img class="demo2 cursor" src="assets/images/saber-3.png" style="width:100%" onclick="currentSlide2(3)" alt="人物關係圖">
+							    </div>
+					  		</div>
+					</div>
+
+					<div id="Celtic" class="tabcontent">
+					  		<div class="mySlides3">
+							    <img src="assets/images/saber-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides3">
+							    <img src="assets/images/god-4-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides3">
+							    <img src="assets/images/saber-3.png" style="width:100%">
+							  </div>
+
+							  <a class="arr left-arr" onclick="plusSlides3(-1)"></a>
+							  <a class="arr right-arr" onclick="plusSlides3(1)"></a>
+
+							  <div class="caption-container">
+							    <p id="caption3"></p>
+							  </div>
+
+							  <div class="row">
+							    <div class="column">
+							      <img class="demo3 cursor" src="assets/images/saber-1.png" style="width:100%" onclick="currentSlide3(1)" alt="神話地區">
+							    </div>
+							    <div class="column">
+							      <img class="demo3 cursor" src="assets/images/god-4-1.png" style="width:100%" onclick="currentSlide3(2)" alt="主要人物">
+							    </div>
+							    <div class="column">
+							      <img class="demo3 cursor" src="assets/images/saber-3.png" style="width:100%" onclick="currentSlide3(3)" alt="人物關係圖">
+							    </div>
+					  		</div>
+					</div>
+
+					<div id="Egyptian" class="tabcontent">
+					  		<div class="mySlides4">
+							    <img src="assets/images/saber-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides4">
+							    <img src="assets/images/god-5-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides4">
+							    <img src="assets/images/saber-3.png" style="width:100%">
+							  </div>
+
+							  <a class="arr left-arr" onclick="plusSlides4(-1)"></a>
+							  <a class="arr right-arr" onclick="plusSlides4(1)"></a>
+
+							  <div class="caption-container">
+							    <p id="caption4"></p>
+							  </div>
+
+							  <div class="row">
+							    <div class="column">
+							      <img class="demo4 cursor" src="assets/images/saber-1.png" style="width:100%" onclick="currentSlide4(1)" alt="神話地區">
+							    </div>
+							    <div class="column">
+							      <img class="demo4 cursor" src="assets/images/god-5-1.png" style="width:100%" onclick="currentSlide4(2)" alt="主要人物">
+							    </div>
+							    <div class="column">
+							      <img class="demo4 cursor" src="assets/images/saber-3.png" style="width:100%" onclick="currentSlide4(3)" alt="人物關係圖">
+							    </div>
+					  		</div>
+					</div>
+
+					<div id="Aztec" class="tabcontent">
+					  		<div class="mySlides5">
+							    <img src="assets/images/saber-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides5">
+							    <img src="assets/images/god-6-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides5">
+							    <img src="assets/images/saber-3.png" style="width:100%">
+							  </div>
+
+							  <a class="arr left-arr" onclick="plusSlides5(-1)"></a>
+							  <a class="arr right-arr" onclick="plusSlides5(1)"></a>
+
+							  <div class="caption-container">
+							    <p id="caption5"></p>
+							  </div>
+
+							  <div class="row">
+							    <div class="column">
+							      <img class="demo5 cursor" src="assets/images/saber-1.png" style="width:100%" onclick="currentSlide5(1)" alt="神話地區">
+							    </div>
+							    <div class="column">
+							      <img class="demo5 cursor" src="assets/images/god-6-1.png" style="width:100%" onclick="currentSlide5(2)" alt="主要人物">
+							    </div>
+							    <div class="column">
+							      <img class="demo5 cursor" src="assets/images/saber-3.png" style="width:100%" onclick="currentSlide5(3)" alt="人物關係圖">
+							    </div>
+					  		</div>
+					</div>
+
+					<div id="Maya" class="tabcontent">
+					  		<div class="mySlides6">
+							    <img src="assets/images/saber-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides6">
+							    <img src="assets/images/god-7-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides6">
+							    <img src="assets/images/saber-3.png" style="width:100%">
+							  </div>
+
+							  <a class="arr left-arr" onclick="plusSlides6(-1)"></a>
+							  <a class="arr right-arr" onclick="plusSlides6(1)"></a>
+
+							  <div class="caption-container">
+							    <p id="caption6"></p>
+							  </div>
+
+							  <div class="row">
+							    <div class="column">
+							      <img class="demo6 cursor" src="assets/images/saber-1.png" style="width:100%" onclick="currentSlide6(1)" alt="神話地區">
+							    </div>
+							    <div class="column">
+							      <img class="demo6 cursor" src="assets/images/god-7-1.png" style="width:100%" onclick="currentSlide6(2)" alt="主要人物">
+							    </div>
+							    <div class="column">
+							      <img class="demo6 cursor" src="assets/images/saber-3.png" style="width:100%" onclick="currentSlide6(3)" alt="人物關係圖">
+							    </div>
+					  		</div>
+					</div>
+
+					<div id="Mesopotamia" class="tabcontent">
+					  		<div class="mySlides7">
+							    <img src="assets/images/saber-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides7">
+							    <img src="assets/images/god-8-1.png" style="width:100%">
+							  </div>
+							  
+							  <div class="mySlides7">
+							    <img src="assets/images/saber-3.png" style="width:100%">
+							  </div>
+
+							  <a class="arr left-arr" onclick="plusSlides7(-1)"></a>
+							  <a class="arr right-arr" onclick="plusSlides7(1)"></a>
+
+							  <div class="caption-container">
+							    <p id="caption7"></p>
+							  </div>
+
+							  <div class="row">
+							    <div class="column">
+							      <img class="demo7 cursor" src="assets/images/saber-1.png" style="width:100%" onclick="currentSlide7(1)" alt="神話地區">
+							    </div>
+							    <div class="column">
+							      <img class="demo7 cursor" src="assets/images/god-8-1.png" style="width:100%" onclick="currentSlide7(2)" alt="主要人物">
+							    </div>
+							    <div class="column">
+							      <img class="demo7 cursor" src="assets/images/saber-3.png" style="width:100%" onclick="currentSlide7(3)" alt="人物關係圖">
+							    </div>
+					  		</div>
+					</div>
+
+				
+			</section>
+		</section> 
+		<div id="footer">
+			<div class="footer-GT">
+				<a href="#first">
+					<div class="back-top"></div>
+				</a>
+			</div>
+		</div>
+	</section>
+	</body>
+	<script>
+					function openCity(evt, cityName) {
+					  var i, tabcontent, tablinks;
+					  tabcontent = document.getElementsByClassName("tabcontent");
+					  for (i = 0; i < tabcontent.length; i++) {
+					    tabcontent[i].style.display = "none";
+					  }
+					  tablinks = document.getElementsByClassName("tablinks");
+					  for (i = 0; i < tablinks.length; i++) {
+					    tablinks[i].className = tablinks[i].className.replace(" active", "");
+					  }
+					  document.getElementById(cityName).style.display = "block";
+					  evt.currentTarget.className += " active";
+					}
+	</script>
+	<script>
+					let slideIndex = 1;
+					showSlides(slideIndex);
+
+					function plusSlides(n) {
+					  showSlides(slideIndex += n);
+					}
+
+					function currentSlide(n) {
+					  showSlides(slideIndex = n);
+					}
+
+					function showSlides(n) {
+					  let i;
+					  let slides = document.getElementsByClassName("mySlides");
+					  let dots = document.getElementsByClassName("demo");
+					  let captionText = document.getElementById("caption");
+					  if (n > slides.length) {slideIndex = 1}
+					  if (n < 1) {slideIndex = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex-1].style.display = "block";
+					  dots[slideIndex-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex-1].alt;
+					}
+	</script>
+	<script>
+					let slideIndex1 = 1;
+					showSlides1(slideIndex1);
+
+					function plusSlides1(n) {
+					  showSlides1(slideIndex1 += n);
+					}
+
+					function currentSlide1(n) {
+					  showSlides1(slideIndex1 = n);
+					}
+
+					function showSlides1(n) {
+					  let i;
+					  let slides = document.getElementsByClassName("mySlides1");
+					  let dots = document.getElementsByClassName("demo1");
+					  let captionText = document.getElementById("caption1");
+					  if (n > slides.length) {slideIndex1 = 1}
+					  if (n < 1) {slideIndex1 = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex1-1].style.display = "block";
+					  dots[slideIndex1-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex1-1].alt;
+					}
+	</script>
+	<script>
+					let slideIndex2 = 1;
+					showSlides2(slideIndex2);
+
+					function plusSlides2(n) {
+					  showSlides2(slideIndex2 += n);
+					}
+
+					function currentSlide2(n) {
+					  showSlides2(slideIndex2 = n);
+					}
+
+					function showSlides2(n) {
+					  let i;
+					  let slides = document.getElementsByClassName("mySlides2");
+					  let dots = document.getElementsByClassName("demo2");
+					  let captionText = document.getElementById("caption2");
+					  if (n > slides.length) {slideIndex2 = 1}
+					  if (n < 1) {slideIndex2 = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex2-1].style.display = "block";
+					  dots[slideIndex2-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex2-1].alt;
+					}
+	</script>
+	<script>
+					let slideIndex3 = 1;
+					showSlides3(slideIndex3);
+
+					function plusSlides3(n) {
+					  showSlides3(slideIndex3 += n);
+					}
+
+					function currentSlide3(n) {
+					  showSlides3(slideIndex3 = n);
+					}
+
+					function showSlides3(n) {
+					  let i;
+					  let slides = document.getElementsByClassName("mySlides3");
+					  let dots = document.getElementsByClassName("demo3");
+					  let captionText = document.getElementById("caption3");
+					  if (n > slides.length) {slideIndex3 = 1}
+					  if (n < 1) {slideIndex3 = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex3-1].style.display = "block";
+					  dots[slideIndex3-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex3-1].alt;
+					}
+	</script>
+	<script>
+					let slideIndex4 = 1;
+					showSlides4(slideIndex4);
+
+					function plusSlides4(n) {
+					  showSlides4(slideIndex4 += n);
+					}
+
+					function currentSlide4(n) {
+					  showSlides4(slideIndex4 = n);
+					}
+
+					function showSlides4(n) {
+					  let i;
+					  let slides = document.getElementsByClassName("mySlides4");
+					  let dots = document.getElementsByClassName("demo4");
+					  let captionText = document.getElementById("caption4");
+					  if (n > slides.length) {slideIndex4 = 1}
+					  if (n < 1) {slideIndex4 = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex4-1].style.display = "block";
+					  dots[slideIndex4-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex4-1].alt;
+					}
+	</script>
+	<script>
+					let slideIndex5 = 1;
+					showSlides5(slideIndex5);
+
+					function plusSlides5(n) {
+					  showSlides5(slideIndex5 += n);
+					}
+
+					function currentSlide5(n) {
+					  showSlides5(slideIndex5 = n);
+					}
+
+					function showSlides5(n) {
+					  let i;
+					  let slides = document.getElementsByClassName("mySlides5");
+					  let dots = document.getElementsByClassName("demo5");
+					  let captionText = document.getElementById("caption5");
+					  if (n > slides.length) {slideIndex5 = 1}
+					  if (n < 1) {slideIndex5 = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex5-1].style.display = "block";
+					  dots[slideIndex5-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex5-1].alt;
+					}
+	</script>
+	<script>
+					let slideIndex6 = 1;
+					showSlides6(slideIndex6);
+
+					function plusSlides6(n) {
+					  showSlides6(slideIndex6 += n);
+					}
+
+					function currentSlide6(n) {
+					  showSlides6(slideIndex6 = n);
+					}
+
+					function showSlides6(n) {
+					  let i;
+					  let slides = document.getElementsByClassName("mySlides6");
+					  let dots = document.getElementsByClassName("demo6");
+					  let captionText = document.getElementById("caption6");
+					  if (n > slides.length) {slideIndex6 = 1}
+					  if (n < 1) {slideIndex6 = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex6-1].style.display = "block";
+					  dots[slideIndex6-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex6-1].alt;
+					}
+	</script>
+	<script>
+					let slideIndex7 = 1;
+					showSlides7(slideIndex7);
+
+					function plusSlides7(n) {
+					  showSlides7(slideIndex7 += n);
+					}
+
+					function currentSlide7(n) {
+					  showSlides7(slideIndex7 = n);
+					}
+
+					function showSlides7(n) {
+					  let i;
+					  let slides = document.getElementsByClassName("mySlides7");
+					  let dots = document.getElementsByClassName("demo7");
+					  let captionText = document.getElementById("caption7");
+					  if (n > slides.length) {slideIndex7 = 1}
+					  if (n < 1) {slideIndex7 = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex7-1].style.display = "block";
+					  dots[slideIndex7-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex7-1].alt;
+					}
+	</script>
+</html>
